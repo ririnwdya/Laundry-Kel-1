@@ -1,0 +1,67 @@
+{% include 'header.html' %}
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Input Data Customer</h1>
+          </div>
+
+          <div class="card mb-3">
+            <div class="section">
+            <div id="slider" margin="20px">
+            <form action="ptambah.php" method="post">
+            <table class="table">
+                <tbody>
+                    <tr>
+                    <td>Nama Customer</td>
+                    <td>:</td>
+                    <td><input type="text" class="form-control" name="uname" id="uname" autocomplete="off" placeholder="Masukan Username" size="30" required=""></td>
+                    </tr>
+                <tr></tr>
+                <tr>
+                    <td>No. Whatsapp</td>
+                    <td>:</td>
+                    <td><input type="text" class="form-control" name="nowa" id="nowa" autocomplete="off" placeholder="Masukan Password" size="30" required=""></td>
+                </tr>
+                <tr>
+                    <td>Jenis Cucian</td>
+                    <td>:</td>
+                    <td><input type="text" class="form-control" name="nowa" id="nowa" autocomplete="off" placeholder="Masukan No Whatsapp" size="30" required=""></td>
+                </tr>
+                <tr>
+                    <td>Tipe Laundry</td>
+                    <td>:</td>
+                    <td><input type="text" class="form-control" name="nowa" id="nowa" autocomplete="off" placeholder="Masukan Tipe Laundry" size="30" required=""></td>
+                </tr>
+                <tr>
+                    <td>Berat Cucian</td>
+                    <td>:</td>
+                    <td><input type="text" class="form-control" name="nowa" id="nowa" autocomplete="off" placeholder="Masukan Berat Cucian" size="30" required=""></td>
+                </tr>
+                <tr>
+                    <td>Harga</td>
+                    <td>:</td>
+                    <td><input type="text" class="form-control" name="nowa" id="nowa" autocomplete="off" placeholder="Masukan Harga" size="30" required=""></td>
+                </tr>
+                <tr>
+                    <td>Estimasi Selesai</td>
+                    <td>:</td>
+                    <td><input type="date" class="form-control" name="nowa" id="nowa" required=""></td>
+                </tr>
+                <tr><td><input type="submit" class="btn btn-primary" name="tambah" value="Tambah">
+                <input type="button" name="batal" class="btn btn-danger" value="Batal" onclick="javascript:history.back()"></td>
+            </tr>
+            
+            </tbody></table>
+            </form>
+        
+        </div></div></div>
+
+        </div>
+        <!-- /.container-fluid -->
+
+      </div>
+      <!-- End of Main Content -->
+
+{% include 'footer.html' %}
